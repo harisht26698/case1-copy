@@ -1,2 +1,5 @@
+com\philips\sender\service\DataProcessing.class
+com\philips\sender\service\PrintToConsole.class
 com\philips\sender\client\SenderMain.class
+com\philips\sender\service\FileHandler.class
 com\philips\sender\service\FileNameReader.class

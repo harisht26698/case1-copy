@@ -1,2 +1,5 @@
-C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\client\Sender.java
-C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\server\Receiver.java
+C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\sender\service\FileHandler.java
+C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\sender\client\SenderMain.java
+C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\sender\service\DataProcessing.java
+C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\sender\service\PrintToConsole.java
+C:\Users\320091455\BootCamp\CaseStudy1\case-study-workflow\src\main\java\com\philips\sender\service\FileNameReader.java
