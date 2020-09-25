@@ -1,2 +1,2 @@
-com\philips\client\Sender.class
-com\philips\server\Receiver.class
+com\philips\sender\client\SenderMain.class
+com\philips\sender\service\FileNameReader.class
