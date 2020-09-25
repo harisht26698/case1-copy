@@ -16,7 +16,7 @@ public class SenderTest {
     }
 
     @Test
-    public void checkcsvLineToArrayOfString() throws FileNotFoundException {
+    public void checkCsvLineToArrayOfString() throws FileNotFoundException {
 
         String[] retArray = DataProcessing.csvLineToArrayOfString(testLine);
         assertEquals(testArray[0],retArray[0]);
@@ -24,9 +24,16 @@ public class SenderTest {
     }
 
     @Test
-    public void checkgetColumnNumber() throws FileNotFoundException {
+    public void checkGetColumnNumber() throws FileNotFoundException {
         assertEquals(0,DataProcessing.getColumnNumber(testArray,"ReviewDate"));
         assertEquals(1,DataProcessing.getColumnNumber(testArray,"Comments"));
         assertEquals(-1,DataProcessing.getColumnNumber(testArray,"wrongCol"));
+    }
+
+    @Test
+    public void checkValidateColumnNumber() throws FileNotFoundException {
+        assertEquals(-1,DataProcessing.validateColumnNumber(2,2));
+        assertEquals(0,DataProcessing.validateColumnNumber(2,0));
+        assertEquals(-1,DataProcessing.validateColumnNumber(2,3));
     }
 }

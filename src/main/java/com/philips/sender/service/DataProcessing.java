@@ -5,15 +5,18 @@ public class DataProcessing {
         String[] lineData = line.split(",");
         return lineData;
     }
-    public static int getColumnNumber(String[] lineData, String coloumnName){
+    public static int getColumnNumber(String[] lineData, String columnName){
         int cnt=0;
         for (String col : lineData) {
-            if (coloumnName.equals(col))
+            if (columnName.equals(col))
                 break;
             cnt++;
         }
-        if(lineData.length == cnt)
+        return validateColumnNumber(lineData.length,cnt);
+    }
+    public static int validateColumnNumber(int length,int cNum){
+        if(length <= cNum)
             return -1;
-        return cnt;
+        return cNum;
     }
 }
