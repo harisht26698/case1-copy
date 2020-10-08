@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
 
-public class WritieToCsv {
+public class WriteToCSV {
     public static void mapToCsvWriter() throws IOException {
         FileWriter csvWriter = new FileWriter("wordCount.csv");
         FileWriter csvWriter2 = new FileWriter("wordUsedOnDates.csv");

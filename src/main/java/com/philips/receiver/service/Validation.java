@@ -15,28 +15,35 @@ public class Validation {
           continue;
       }
 
-      line= ProcessingData.filteringLine(line);
-      String[] words=line.split(" ");
-      int flag=0;
-      for(String word:words) {
-          if(flag==0){
-              if(ProcessingData.isDate(word)){
-                  flag++;
-                  date=word;
-                  continue;
-              }
-              else
-              {
-                  flag=2;
-              }
-          }
-          if(flag==1){
-              flag++;
-              continue;
-          }
+        line= ProcessingData.filteringLine(line);
+        String[] words=line.split(" ");
+        dateCheck();
+
           if(ProcessingData.isNumber(word))
               continue;
           DataStorage.wordsCount(wordCount, wordWithDate, word, date);
       }
     }
+}
+
+public static void dateCheck(){
+  int flag=0;
+  for(String word:words) {
+      if(flag==0){
+          if(ProcessingData.isDate(word)){
+              flag++;
+              date=word;
+              continue;
+          }
+          else
+          {
+              flag=2;
+          }
+      }
+      if(flag==1){
+          flag++;
+          continue;
+      }
+
+}
 }
