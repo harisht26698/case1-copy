@@ -8,11 +8,9 @@ public class Validation {
   public static void validateDataThenSendValidDataToStore(String[] words) throws IOException {
       flag=0;
       for(String word:words) {
-          if(checkWordToSkip(word)){
+          if(checkWordToSkip(word)||ProcessingData.isNumber(word)){
               continue;
           }
-          if(ProcessingData.isNumber(word))
-              continue;
           DataStorage.storeDataInMap(word,date);
       }
     }
