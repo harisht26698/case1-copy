@@ -8,7 +8,7 @@ public class Validation {
   public static void validateDataThenSendValidDataToStore(String[] words) throws IOException {
       flag=0;
       for(String word:words) {
-          if(checkWordToSkip(word)||ProcessingData.isNumber(word)){
+          if(isSkipable(word)){
               continue;
           }
           DataStorage.storeDataInMap(word,date);
@@ -32,5 +32,11 @@ public class Validation {
             return true;
         }
       return false;
+    }
+    public static boolean isSkipable(String word){
+        if(checkWordToSkip(word)||ProcessingData.isNumber(word)){
+            return true;
+        }
+        return false;
     }
   }
