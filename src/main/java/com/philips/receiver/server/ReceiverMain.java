@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ReceiverMain {
   public static void main(String[] args) throws IOException {
-    ConsoleReader.readDataFromConsole();
+    ConsoleReader.readsDataFromConsole();
     WriteToCSV.mapToCsvWriter();
   }
 }

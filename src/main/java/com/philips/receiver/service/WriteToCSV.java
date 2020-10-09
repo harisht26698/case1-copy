@@ -10,7 +10,7 @@ public class WriteToCSV {
         FileWriter csvWriter2 = new FileWriter("wordUsedOnDates.csv");
         csvWriter.append("Word,Count\n");
         csvWriter2.append("Word,Dates\n");
-        for(Map.Entry<String,Integer> kv:ConsoleReader.wordCount.entrySet()){
+        for(Map.Entry<String,Integer> kv:DataStorage.wordCount.entrySet()){
             if(ProcessingData.isStopWord(kv.getKey()))
                 continue;
             csvWriter.append(kv.getKey());
@@ -20,7 +20,7 @@ public class WriteToCSV {
             String val = kv.getValue().toString();
             csvWriter.append(val);
             csvWriter.append("\n");
-            csvWriter2.append(ConsoleReader.wordWithDate.get(kv.getKey()));
+            csvWriter2.append(DataStorage.wordWithDate.get(kv.getKey()));
             csvWriter2.append("\n");
         }
         csvWriter.flush();

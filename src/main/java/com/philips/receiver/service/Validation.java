@@ -1,31 +1,38 @@
 package com.philips.receiver.service;
 
-import com.philips.receiver.service.ProcessingData;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Validation {
-  public static void dataValidation(String wordCount, String wordWithDate, String line, String date){
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    while (!line.equals("done")) 
-    {
-        if(line.equals("")){
-          line=br.readLine();
-          continue;
-      }
-
-        line= ProcessingData.filteringLine(line);
-        String[] words=line.split(" ");
-        
-        for(String word:words) {
-                if(ProcessingData.isDate(word))
-                    continue;
-        }
-
+    public static String date="";
+    public static int flag=0;
+  public static void validateDataThenSendValidDataToStore(String[] words) throws IOException {
+      flag=0;
+      for(String word:words) {
+          if(checkWordToSkip(word)){
+              continue;
+          }
           if(ProcessingData.isNumber(word))
               continue;
-          DataStorage.wordsCount(wordCount, wordWithDate, word, date);
+          DataStorage.storeDataInMap(word,date);
       }
+    }
+    public static boolean isDateAndTimeOfComment(String word){
+        if(ProcessingData.isDate(word)){
+            flag++;
+            date=word;
+            return true;
+        }
+            flag=2;
+        return false;
+    }
+    public static boolean checkWordToSkip(String word){
+        if(flag==0){
+            return isDateAndTimeOfComment(word);
+        }
+        if(flag==1){
+            flag++;
+            return true;
+        }
+      return false;
     }
   }
