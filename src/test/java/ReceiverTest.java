@@ -1,5 +1,12 @@
+import com.philips.receiver.service.DataStorage;
 import com.philips.receiver.service.ProcessingData;
+import com.philips.receiver.service.Validation;
+import com.philips.receiver.service.WriteToCSV;
 import org.junit.Test;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 import static org.junit.Assert.*;
 
@@ -25,6 +32,30 @@ public class ReceiverTest {
         assertFalse(ProcessingData.isStopWord("rename"));
         assertFalse(ProcessingData.isStopWord("import"));
     }
+    @Test
+    public void checkMapToCsvWriter() throws IOException {
+        DataStorage.wordCount.put("test",4);
+        WriteToCSV.mapToCsvWriter();
+        BufferedReader br = new BufferedReader(new FileReader("wordCount.csv"));
+        assertEquals("Word,Count",br.readLine());
+        assertEquals("test,4",br.readLine());
+        BufferedReader br1 = new BufferedReader(new FileReader("wordUsedOnDates.csv"));
+        assertEquals("Word,Dates",br1.readLine());
+    }
+    @Test
+    public void checkValidateDataThenSendValidDataToStore() throws IOException {
+        String line= "4/27/2020 9:14 what does this help with";
+        String[] words=line.split(" ");
+        Validation.validateDataThenSendValidDataToStore(words);
+        assertEquals(new Integer(1),DataStorage.wordCount.get("help"));
+        assertEquals("4/27/2020",DataStorage.wordWithDate.get("help"));
+        assertFalse(DataStorage.wordWithDate.containsKey("test"));
 
+        line= "what does this help with verify the string";
+        words=line.split(" ");
+        Validation.validateDataThenSendValidDataToStore(words);
+        assertEquals(new Integer(2),DataStorage.wordCount.get("help"));
+        assertEquals("4/27/2020",DataStorage.wordWithDate.get("verify"));
+    }
 }
 

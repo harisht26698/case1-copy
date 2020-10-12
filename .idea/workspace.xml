@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="09628bd3-3747-44d3-aba1-e2661058d34a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/ProcessingData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/ProcessingData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/CSVReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="ConsoleReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="170">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -42,35 +43,17 @@
       <file leaf-file-name="WriteToCSV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/WriteToCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="70" lean-forward="true" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+            <state relative-caret-position="204">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SenderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SenderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReceiverTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReceiverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="412">
+              <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -78,26 +61,17 @@
       <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessingData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Validation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="259">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,8 +118,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/philips/sender/service/PrintToConsole.java" />
         <option value="$PROJECT_DIR$/src/test/java/SenderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ReceiverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ReceiverTest.java" />
       </list>
     </option>
   </component>
@@ -390,27 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SenderTest - 2020.10.12 at 09h 09m 50s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 12m 13s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 12m 35s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 13m 37s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 14m 06s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 16m 22s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 09h 16m 35s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SenderTest - 2020.10.12 at 09h 16m 50s.xml">
       <configuration name="SenderTest" configurationId="JUnit" />
     </history-entry>
@@ -418,6 +372,27 @@
       <configuration name="SenderTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReceiverTest - 2020.10.12 at 10h 13m 48s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 10h 36m 32s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 10h 49m 20s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 10h 54m 31s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 03m 03s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 04m 40s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 05m 52s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 06m 23s.xml">
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -439,7 +414,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="ExcelReader" weight="0.3681416" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info id="UI Designer" order="4" />
@@ -674,52 +649,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/server/ReceiverMain.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SenderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="361">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/WriteToCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" lean-forward="true" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SenderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -730,10 +670,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/server/ReceiverMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="259">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
         </state>
       </provider>
     </entry>
