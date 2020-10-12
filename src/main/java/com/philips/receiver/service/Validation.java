@@ -6,37 +6,25 @@ public class Validation {
     public static String date="";
     public static int flag=0;
   public static void validateDataThenSendValidDataToStore(String[] words) throws IOException {
-      flag=0;
-      for(String word:words) {
-          if(isSkipable(word)){
-              continue;
-          }
-          DataStorage.storeDataInMap(word,date);
+      if(ProcessingData.isDate(words[0])) {
+          newComment(words);
+      }
+      else {
+          oldComment(words);
       }
     }
-    public static boolean isDateAndTimeOfComment(String word){
-        if(ProcessingData.isDate(word)){
-            flag++;
-            date=word;
-            return true;
+    public static void newComment(String[] words){
+        date=words[0];
+        for (int i = 2; i < words.length; i++) {
+            if(!ProcessingData.isNumber(words[i]))
+            DataStorage.storeDataInMap(words[i], date);
         }
-            flag=2;
-        return false;
     }
-    public static boolean checkWordToSkip(String word){
-        if(flag==0){
-            return isDateAndTimeOfComment(word);
+    public static void oldComment(String[] words){
+        for (int i = 0; i < words.length; i++) {
+            if(!ProcessingData.isNumber(words[i]))
+            DataStorage.storeDataInMap(words[i], date);
         }
-        if(flag==1){
-            flag++;
-            return true;
-        }
-      return false;
     }
-    public static boolean isSkipable(String word){
-        if(checkWordToSkip(word)||ProcessingData.isNumber(word)){
-            return true;
-        }
-        return false;
-    }
+
   }
