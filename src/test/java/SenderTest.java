@@ -2,6 +2,10 @@ import com.philips.sender.service.DataProcessing;
 import com.philips.sender.service.PrintToConsole;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 
 public class SenderTest {
@@ -33,5 +37,32 @@ public class SenderTest {
         assertEquals(-1,DataProcessing.validateColumnNumber(2,2));
         assertEquals(0,DataProcessing.validateColumnNumber(2,0));
         assertEquals(-1,DataProcessing.validateColumnNumber(2,3));
+    }
+
+    @Test
+    public void checkPrintingArrayOfStringToConsole() throws IOException {
+        PrintToConsole.lineData = testLine.split(",");
+        PrintToConsole.printingArrayOfStringToConsole();
+        BufferedReader br = new BufferedReader(new FileReader("console.csv"));
+        assertEquals("ReviewDate Comments ",br.readLine());
+        br.close();
+    }
+
+    @Test
+    public void checkConsoleOutput() throws IOException {
+        PrintToConsole.consoleOutput("test");
+        BufferedReader br = new BufferedReader(new FileReader("console.csv"));
+        assertEquals("ReviewDate Comments test",br.readLine());
+        br.close();
+    }
+
+    @Test
+    public void checkBufferDataIsPrintingToConsole() throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("consoleTest.csv"));
+        PrintToConsole.bufferDataIsPrintingToConsole(br);
+        BufferedReader br1 = new BufferedReader(new FileReader("console.csv"));
+        assertEquals("ReviewDate Comments testReviewDate Comments ",br1.readLine());
+        br.close();
+        br1.close();
     }
 }

@@ -1,12 +1,21 @@
 package com.philips.sender.service;
 
 import java.io.BufferedReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class PrintToConsole {
     private static String line = "";
-    private static String[] lineData;
+    public static String[] lineData;
     private static int columnNumber=0;
+    public static FileWriter csvWriter;
+    static {
+        try {
+            csvWriter = new FileWriter("console.csv");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static void bufferDataIsPrintingToConsole(BufferedReader br) throws IOException {
         while ((line = br.readLine()) != null) {
@@ -30,16 +39,17 @@ public class PrintToConsole {
         System.out.println("done");
     }
 
-    public static void printingArrayOfStringToConsole(){
+    public static void printingArrayOfStringToConsole() throws IOException {
         for (String word : lineData) {
-            System.out.print(word + "  ");
+            consoleOutput(word + " ");
         }
         System.out.println();
     }
 
-    public static void printingSpecificStringOfArray(){
+    public static void printingSpecificStringOfArray() throws IOException {
         if(lineData.length >columnNumber)
-            System.out.println(lineData[columnNumber]);
+            consoleOutput(lineData[columnNumber]);
+        System.out.println();
     }
 
     public static boolean isColumnExists(int cNumber){
@@ -48,5 +58,10 @@ public class PrintToConsole {
             return false;
         }
         return true;
+    }
+    public static void consoleOutput(String str) throws IOException {
+        System.out.print(str);
+        csvWriter.append(str);
+        csvWriter.flush();
     }
 }
