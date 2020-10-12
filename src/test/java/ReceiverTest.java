@@ -1,7 +1,4 @@
-import com.philips.receiver.service.DataStorage;
-import com.philips.receiver.service.ProcessingData;
-import com.philips.receiver.service.Validation;
-import com.philips.receiver.service.WriteToCSV;
+import com.philips.receiver.service.*;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -31,6 +28,11 @@ public class ReceiverTest {
         assertTrue(ProcessingData.isStopWord("the"));
         assertFalse(ProcessingData.isStopWord("rename"));
         assertFalse(ProcessingData.isStopWord("import"));
+    }
+    @Test
+    public void checkFilteringLine(){
+        assertEquals("what ",ProcessingData.filteringLine("what?"));
+        assertEquals("this is end ",ProcessingData.filteringLine("this is end;"));
     }
     @Test
     public void checkDataStorage(){
@@ -65,6 +67,15 @@ public class ReceiverTest {
         assertEquals(new Integer(2),DataStorage.wordCount.get("help"));
         assertEquals("4/27/2020",DataStorage.wordWithDate.get("verify"));
     }
-
+    @Test
+    public void checkIsEnd(){
+        assertTrue(ConsoleReader.isEnd("done"));
+        assertFalse(ConsoleReader.isEnd("sample"));
+    }
+    @Test
+    public void checkIsEmptyLine(){
+        assertTrue(ConsoleReader.isEmptyLine(""));
+        assertFalse(ConsoleReader.isEmptyLine("abc"));
+    }
 }
 

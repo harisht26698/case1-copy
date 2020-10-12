@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09628bd3-3747-44d3-aba1-e2661058d34a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/Validation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/Validation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="ConsoleReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -49,29 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReceiverTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReceiverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="361">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ReceiverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ReceiverTest.java" />
       </list>
     </option>
   </component>
@@ -176,47 +156,42 @@
             <path>
               <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="philips" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="philips" type="462c0819:PsiDirectoryNode" />
-              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenderReceiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study-workflow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="philips" type="462c0819:PsiDirectoryNode" />
-              <item name="sender" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,21 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReceiverTest - 2020.10.12 at 11h 06m 23s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 11h 09m 57s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 11h 16m 28s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 11h 18m 59s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 11h 19m 41s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReceiverTest - 2020.10.12 at 11h 20m 31s.xml">
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
@@ -375,6 +335,21 @@
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReceiverTest - 2020.10.12 at 11h 47m 58s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 49m 19s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 49m 33s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 12h 05m 25s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 12h 09m 04s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 12h 09m 15s.xml">
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -394,9 +369,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.42477876" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="ExcelReader" visible="true" weight="0.3681416" />
+      <window_info anchor="bottom" id="ExcelReader" weight="0.3681416" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info id="UI Designer" order="4" />
@@ -645,24 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/server/ReceiverMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -673,24 +634,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/server/ReceiverMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="361">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
         </state>
       </provider>
     </entry>
