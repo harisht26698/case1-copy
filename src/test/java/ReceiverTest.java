@@ -59,7 +59,7 @@ public class ReceiverTest {
         assertEquals("4/27/2020",DataStorage.wordWithDate.get("help"));
         assertFalse(DataStorage.wordWithDate.containsKey("test"));
 
-        line= "what does this help with verify the string";
+        line= "help with verify the string";
         words=line.split(" ");
         Validation.validateDataThenSendValidDataToStore(words);
         assertEquals(new Integer(2),DataStorage.wordCount.get("help"));
