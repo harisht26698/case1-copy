@@ -33,11 +33,19 @@ public class ReceiverTest {
         assertFalse(ProcessingData.isStopWord("import"));
     }
     @Test
+    public void checkDataStorage(){
+        DataStorage.storeDataInMap("remove","4/7/2020");
+        DataStorage.storeDataInMap("remove","5/7/2020");
+        assertEquals(new Integer(2),DataStorage.wordCount.get("remove"));
+        assertEquals("4/7/2020 5/7/2020",DataStorage.wordWithDate.get("remove"));
+    }
+    @Test
     public void checkMapToCsvWriter() throws IOException {
         DataStorage.wordCount.put("test",4);
         WriteToCSV.mapToCsvWriter();
         BufferedReader br = new BufferedReader(new FileReader("wordCount.csv"));
         assertEquals("Word,Count",br.readLine());
+        assertEquals("remove,2",br.readLine());
         assertEquals("test,4",br.readLine());
         BufferedReader br1 = new BufferedReader(new FileReader("wordUsedOnDates.csv"));
         assertEquals("Word,Dates",br1.readLine());
@@ -57,5 +65,6 @@ public class ReceiverTest {
         assertEquals(new Integer(2),DataStorage.wordCount.get("help"));
         assertEquals("4/27/2020",DataStorage.wordWithDate.get("verify"));
     }
+
 }
 

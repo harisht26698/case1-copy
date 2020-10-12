@@ -16,6 +16,5 @@ public class DataStorage {
       wordCount.put(word, 1);
       wordWithDate.put(word, date);
   }
-
   }
 }

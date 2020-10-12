@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09628bd3-3747-44d3-aba1-e2661058d34a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReceiverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/philips/receiver/service/CSVReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReceiverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordCount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wordCount.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordUsedOnDates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wordUsedOnDates.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="ReceiverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+            <state relative-caret-position="279">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -61,8 +60,8 @@
       <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -111,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/philips/sender/client/SenderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/server/ReceiverMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/StoreData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ConsoleReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/WriteToCSV.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/sender/service/FileNameReader.java" />
@@ -120,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/ProcessingData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/Validation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/CSVReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ReceiverTest.java" />
       </list>
     </option>
@@ -365,18 +364,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SenderTest - 2020.10.12 at 09h 16m 50s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SenderTest - 2020.10.12 at 10h 13m 30s.xml">
-      <configuration name="SenderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 10h 13m 48s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReceiverTest - 2020.10.12 at 10h 36m 32s.xml">
-      <configuration name="ReceiverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReceiverTest - 2020.10.12 at 10h 49m 20s.xml">
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
@@ -393,6 +380,18 @@
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReceiverTest - 2020.10.12 at 11h 06m 23s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 09m 57s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 16m 28s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 18m 59s.xml">
+      <configuration name="ReceiverTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiverTest - 2020.10.12 at 11h 19m 41s.xml">
       <configuration name="ReceiverTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -700,15 +699,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/philips/receiver/service/DataStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ReceiverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+        <state relative-caret-position="279">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
         </state>
       </provider>
     </entry>
